@@ -2,12 +2,12 @@
 # 目錄
 <a name="table-of-contents"></a>
 
-- [目錄](#目錄)
-- [PubSub Subscription 傳送的訊息格式   \[返回目錄\]](#pubsub-subscription-傳送的訊息格式---返回目錄)
-- [1st gen cloud function 範例碼 \[返回目錄\]](#1st-gen-cloud-function-範例碼-返回目錄)
+- [PubSub Subscription 傳送的訊息格式](#sub-msg-format)
+- [1st gen cloud function 範例碼](#cloud-func-sample)
 
 
-# PubSub Subscription 傳送的訊息格式   <sub>[[返回目錄]](#目錄)</sub>
+# PubSub Subscription 傳送的訊息格式   <sub>[[返回目錄]](#table-of-contents)</sub>
+<a name="sub-msg-format"></a>
 
 經過 PubSub subscript 透過 http 傳遞訊息到 第一代 (1st gen), 原始訊息會被包到 `data` 屬性中，
 cloud function 必須將 `message.data` 欄位內容取出後以 base64 decode 解析，
@@ -34,7 +34,9 @@ messageId：消息的唯一 ID。
 publishTime：消息發佈的 RFC3339 時間戳記。
 
 
-# 1st gen cloud function 範例碼 <sub>[[返回目錄]](#目錄)</sub>
+# 1st gen cloud function 範例碼 <sub>[[返回目錄]](#table-of-contents)</sub>
+
+<a name="cloud-func-sample"></a>
 
 
 - 請參考 github repository 中 telegram 資料夾下的程式碼與設定檔。
