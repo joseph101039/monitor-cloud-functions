@@ -1,0 +1,34 @@
+{
+    "insertId":"6xx1g9e17egu",
+    "logName":"projects/gcp-20211019-004/logs/cloudaudit.googleapis.com%2Fsystem_event",
+    "operation":{
+       "first":"systemevent-1680388602817-5f84df5c16a57-f661bc4d-1e035300",
+       "last":"compute.instances.hostError"
+    },
+    "protoPayload":{
+       "@type":"type.googleapis.com/google.cloud.audit.AuditLog",
+       "authenticationInfo":{
+          "principalEmail":"system@google.com"
+       },
+       "methodName":"compute.instances.hostError",
+       "request":{
+          "@type":"type.googleapis.com/compute.instances.hostError"
+       },
+       "resourceName":"projects/gcp-20211019-004/zones/asia-east1-c/instances/gke-newbb-sport-test-e2-2c-8g-a45a75d4-49mx",
+       "serviceName":"compute.googleapis.com",
+       "status":{
+          "message":"Instance terminated by Compute Engine."
+       }
+    },
+    "receiveTimestamp":"2023-04-01T22:36:46.392007489Z",
+    "resource":{
+       "labels":{
+          "instance_id":"2196101701668061518",
+          "project_id":"gcp-20211019-004",
+          "zone":"asia-east1-c"
+       },
+       "type":"gce_instance"
+    },
+    "severity":"INFO",
+    "timestamp":"2023-04-01T22:36:46.137675Z"
+ }

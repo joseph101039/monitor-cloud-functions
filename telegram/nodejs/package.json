@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "@google-cloud/functions-framework": "^3.1.0",
+    "escape-html": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

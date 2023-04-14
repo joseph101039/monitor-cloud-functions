@@ -1,0 +1,10 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# Include the Ruby Functions Framework as a dependency
+gem "functions_framework", "~> 1.2"
+gem 'rubysl-base64', '~> 2.0'
+gem 'strings', '~> 0.2.1'
+gem 'cgi', '~> 0.3.6'
+gem "telegram-bot-ruby", "~> 1.0"
