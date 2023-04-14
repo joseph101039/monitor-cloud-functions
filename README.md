@@ -49,7 +49,7 @@ publishTime：消息發佈的 RFC3339 時間戳記。
   2. `CHAT_ID`: telegram bot 傳送訊息的聊天室 ID，可以將 bot 添加到群組聊天室或是個人聊天室，添加後取得該聊天室的 ID。
   
 
-  <img src="images/cloud-function-runtime-env.png" style="width: 80%; max-width: 300px; margin: 15px auto 15px auto"></img>
+  <img src="images/cloud-function-runtime-env.png" style="width: 80%; max-width: 300px; margin: 15px auto 15px auto" />
 
 
 - 你也可以參考 Google Cloud Function 相關文件: 
