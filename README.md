@@ -43,7 +43,7 @@ publishTime：消息發佈的 RFC3339 時間戳記。
 
 - 請參考 github repository 中 telegram 資料夾下的程式碼與設定檔。
 
-  針對 telegram 下各類語言皆是 呼叫 telegram [sendMessage API](https://core.telegram.org/bots/api#sendmessage)，你可以選擇以 GET method 呼叫此 API，也可以透過套件呼叫 API。
+  針對 telegram 下各類語言皆是 以 GET method 呼叫 telegram [sendMessage API](https://core.telegram.org/bots/api#sendmessage)，或是透過套件呼叫 API。你可以自由修改選擇哪一種方法傳送訊息。
 
   使用 github telegram 中所有範例程式中都需在 GCP cloud function 中設置 2 個環境變數:
 
