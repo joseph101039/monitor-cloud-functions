@@ -9,10 +9,10 @@
 # PubSub Subscription 傳送的訊息格式   <sub>[[返回目錄]](#table-of-contents)</sub>
 <a name="sub-msg-format"></a>
 
-經過 PubSub subscript 透過 http 傳遞訊息到 第一代 (1st gen), 原始訊息會被包到 `data` 屬性中，
+經過 PubSub subscription 透過 http 傳遞訊息到 第一代 (1st gen), 原始訊息會被包到 `data` 屬性中，
 cloud function 必須將 `message.data` 欄位內容取出後以 base64 decode 解析，
 取得原始傳入 PubSub topic 的訊息字串，
-以下為 [pubsub 所傳送訊息格式](https://cloud.google.com/pubsub/docs/reference/rest/v1/PubsubMessage)
+以下為 [pubsub 所傳送訊息格式](https://cloud.google.com/pubsub/docs/reference/rest/v1/PubsubMessage) 範例
 
 
 ```json
@@ -30,7 +30,9 @@ cloud function 必須將 `message.data` 欄位內容取出後以 base64 decode �
 其中各欄位
 
 data：以 Base64 編碼的日誌資料。可以使用解碼該資料並讀取其中的內容。
+
 messageId：消息的唯一 ID。
+
 publishTime：消息發佈的 RFC3339 時間戳記。
 
 
