@@ -4,6 +4,7 @@
 
 - [PubSub Subscription 傳送的訊息格式](#sub-msg-format)
 - [1st gen cloud function 範例碼](#cloud-func-sample)
+- [Telegram 範例所使用的語言版本](#program-lang-ver)
 
 
 # PubSub Subscription 傳送的訊息格式   <sub>[[返回目錄]](#table-of-contents)</sub>
@@ -37,7 +38,6 @@ publishTime：消息發佈的 RFC3339 時間戳記。
 
 
 # 1st gen cloud function 範例碼 <sub>[[返回目錄]](#table-of-contents)</sub>
-
 <a name="cloud-func-sample"></a>
 
 
@@ -57,3 +57,13 @@ publishTime：消息發佈的 RFC3339 時間戳記。
 - 你也可以參考 Google Cloud Function 相關文件: 
 https://cloud.google.com/functions/docs/writing/write-http-functions?hl=zh-cn#http-example-nodejs
 
+# Telegram 範例所使用的語言版本<sub>[[返回目錄]](#table-of-contents)</sub>
+<a name="program-lang-ver"></a>
+
+1. .NET 6.0
+1. GO 1.20
+1. Java 17
+1. Node.js 18
+1. PHP 8.1
+1. Python 3.11
+1. Ruby 3.0
